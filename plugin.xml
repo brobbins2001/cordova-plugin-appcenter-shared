@@ -31,7 +31,7 @@
                      target-dir="src/com/microsoft/azure/mobile/cordova" />
 
         <source-file src="src/android/AppCenterSharedPlugin.java"
-                target-dir="src/com/microsoft/azure/mobile/cordova" />
+                     target-dir="src/com/microsoft/azure/mobile/cordova" />
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="AppCenterShared">
@@ -40,7 +40,7 @@
                        value="com.microsoft.azure.mobile.cordova.AppCenterSharedPlugin"/>
             </feature>
         </config-file>
-        <podspec src="com.microsoft.appcenter:appcenter:2.4.1" />
+        <framework src="com.microsoft.appcenter:appcenter:2.4.1" />
     </platform>
 
     <platform name="ios">
